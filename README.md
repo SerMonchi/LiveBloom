@@ -1,8 +1,13 @@
-# LiveBloom
+<p align="center">
+  <img src="Resources/icon-1024.png" width="160" alt="LiveBloom app icon">
+</p>
 
-Live wallpapers for macOS from the Wallpaper Engine Steam Workshop.
+<h1 align="center">LiveBloom</h1>
 
-**[⬇︎ Download the latest version](https://github.com/SerMonchi/LiveBloom/releases/latest)**
+<p align="center">
+  Live wallpapers for macOS from the Wallpaper Engine Steam Workshop.<br><br>
+  <a href="https://github.com/SerMonchi/LiveBloom/releases/latest"><b>⬇︎ Download the latest version</b></a>
+</p>
 
 > Independent hobby project, not affiliated with Valve, Steam or Wallpaper Engine.
 > You need your own copy of [Wallpaper Engine](https://store.steampowered.com/app/431960/).
