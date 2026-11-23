@@ -1,0 +1,115 @@
+LIVEBLOOM – Live wallpapers for your Mac
+========================================
+
+(Deutsche Anleitung weiter unten.)
+
+LiveBloom plays video and web wallpapers from the Wallpaper Engine
+Workshop as your Mac's desktop background. Available in 12 languages
+(Settings → Language).
+
+Requirements
+------------
+- macOS 15 (Sequoia) or later, Apple silicon or Intel
+- A Steam account that owns Wallpaper Engine (or copy the wallpapers
+  over from your Windows PC)
+
+1. Install
+----------
+Drag "LiveBloom" onto the "Applications" folder next to it.
+
+2. Allow it on first launch (only once)
+---------------------------------------
+LiveBloom isn't from the App Store, so macOS warns the first time:
+
+  a) Open LiveBloom. When macOS says it can't verify the app,
+     click "Done" (NOT "Move to Trash").
+  b) Open System Settings → Privacy & Security.
+  c) Scroll down to "LiveBloom was blocked …", click "Open Anyway"
+     and confirm with your Mac password.
+
+Terminal alternative:
+  xattr -dr com.apple.quarantine /Applications/LiveBloom.app
+
+3. Set up
+---------
+  1. Enter a free Steam Web API key: https://steamcommunity.com/dev/apikey
+     (you can use "localhost" as the domain).
+  2. Sign in to Steam in Settings. Your password goes straight to Valve's
+     official "steamcmd" and is never stored.
+
+  OR without signing in: copy the folder
+     Steam\steamapps\workshop\content\431960
+  from your Windows PC and import it in Settings.
+
+Good to know
+------------
+- Video and web wallpapers work; scene wallpapers are Windows-only.
+- Pauses automatically when an app is fullscreen.
+- Only connects to Steam. No ads, no tracking.
+- Workshop content belongs to its creators – use it privately with your
+  own Wallpaper Engine license and don't redistribute it.
+- Not affiliated with Valve or the Wallpaper Engine developers.
+
+Uninstall
+---------
+Quit LiveBloom from the menu bar, move it to the Trash and optionally
+delete ~/Library/Application Support/LiveBloom
+
+
+=====================================================================
+
+LIVEBLOOM – Live-Wallpaper für den Mac (Deutsch)
+================================================
+
+LiveBloom spielt Video- und Web-Wallpaper aus dem Wallpaper-Engine-
+Workshop als bewegten Hintergrund ab. In 12 Sprachen verfügbar
+(Einstellungen → Sprache).
+
+Voraussetzungen
+---------------
+- macOS 15 (Sequoia) oder neuer, Apple-Silicon- oder Intel-Mac
+- Ein Steam-Konto, das Wallpaper Engine besitzt (oder die Wallpaper
+  vom Windows-PC übernehmen)
+
+1. Installieren
+---------------
+Ziehe "LiveBloom" auf den Ordner "Applications" (Programme) daneben.
+
+2. Beim ersten Öffnen freigeben (nur einmal)
+--------------------------------------------
+LiveBloom kommt nicht aus dem App Store, deshalb warnt macOS beim
+ersten Start:
+
+  a) Öffne LiveBloom. Bei der Meldung, dass Apple die App nicht
+     überprüfen konnte, auf "Fertig" klicken (NICHT "In den Papierkorb").
+  b) Öffne Systemeinstellungen → Datenschutz & Sicherheit.
+  c) Ganz unten bei "LiveBloom wurde blockiert …" auf "Dennoch öffnen"
+     klicken und mit dem Mac-Passwort bestätigen.
+
+Alternative im Terminal:
+  xattr -dr com.apple.quarantine /Applications/LiveBloom.app
+
+3. Einrichten
+-------------
+  1. Kostenlosen Steam-Web-API-Schlüssel eintragen:
+     https://steamcommunity.com/dev/apikey ("localhost" als Domain geht).
+  2. In den Einstellungen bei Steam anmelden. Das Passwort geht direkt an
+     Valves offizielles "steamcmd" und wird nicht gespeichert.
+
+  ODER ohne Anmeldung: den Ordner
+     Steam\steamapps\workshop\content\431960
+  vom Windows-PC kopieren und in den Einstellungen importieren.
+
+Gut zu wissen
+-------------
+- Video- und Web-Wallpaper laufen; Scene-Wallpaper nur unter Windows.
+- Pausiert automatisch, wenn eine App im Vollbild läuft.
+- Verbindet sich nur mit Steam. Keine Werbung, kein Tracking.
+- Workshop-Inhalte gehören ihren Erstellern – nur privat mit deiner
+  eigenen Wallpaper-Engine-Lizenz nutzen und nicht weitergeben.
+- Nicht mit Valve oder den Entwicklern von Wallpaper Engine verbunden.
+
+Deinstallieren
+--------------
+LiveBloom über die Menüleiste beenden, in den Papierkorb ziehen und
+optional ~/Library/Application Support/LiveBloom löschen.
